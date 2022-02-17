@@ -1,10 +1,9 @@
 puts 'сколько кубиков кинуть'
 answ = gets.to_i
 answ.times do
-5.times do
-  puts rand (1..6)
-  sleep 0.1
-  system "clear" or system "cls"
+100.times do
+print "#{rand(6) + 1}\r"
+  sleep 0.011
 end
 puts rand(1..6)
 end
